@@ -1,0 +1,28 @@
+<!doctype html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <title>To-Do List</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h1>Minhas Tarefas</h1>
+
+      <span id="contador">0 tarefas</span>
+
+      <div class="input-area">
+        <input type="text" id="tarefa" placeholder="Digite uma tarefa..." />
+        <button onclick="adicionarTarefa()">+</button>
+      </div>
+
+      <div class="actions">
+        <button class="limpar" onclick="limparTudo()">Limpar tudo</button>
+      </div>
+
+      <ul id="lista"></ul>
+    </div>
+
+    <script src="script.js" defer></script>
+  </body>
+</html>
